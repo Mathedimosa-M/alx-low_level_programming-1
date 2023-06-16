@@ -1,15 +1,15 @@
 #incude < stdio.h >
 /**
  * main - Entry point
- * return : Always 0 (success)
+ * return: Always 0 (success)
  */
-	int main(void)
+int main(void)
 {
 	int a;
 	char b;
 	long c;
 	long long d;
-	float d;
+	float e;
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(b));
 	printf("Size of an int: %lu byte(s)\n", sizeof(a));
